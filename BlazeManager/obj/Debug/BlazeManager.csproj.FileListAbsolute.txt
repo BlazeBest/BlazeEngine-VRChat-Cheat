@@ -1,0 +1,6 @@
+C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeManager\obj\Debug\BlazeManager.csprojAssemblyReference.cache
+C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\bin\BlazeManager.dll
+C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\bin\BlazeManager.pdb
+C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeManager\obj\Debug\BlazeManager.csproj.CopyComplete
+C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeManager\obj\Debug\BlazeManager.dll
+C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeManager\obj\Debug\BlazeManager.pdb

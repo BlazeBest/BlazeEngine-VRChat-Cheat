@@ -24,7 +24,7 @@
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <RegisterForComInterop>false</RegisterForComInterop>
-    <CodeAnalysisRuleSet>RULes.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -84,6 +84,7 @@
     <Compile Include="BlazeTools\BlazeAttack\PortalSploit.cs" />
     <Compile Include="BlazeTools\BlazeWebAPI\API.cs" />
     <Compile Include="BlazeTools\BlazeWebAPI\WebRequest.cs" />
+    <Compile Include="Bootloader.cs" />
     <Compile Include="CustomQuickMenu\QMLineButton.cs" />
     <Compile Include="CustomQuickMenu\QMSingleButton.cs" />
     <Compile Include="CustomQuickMenu\QMToggleButton.cs" />
