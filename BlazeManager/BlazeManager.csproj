@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4FBAE9A-9DFD-4FD8-AE24-E29F23753CA6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlazeManager</RootNamespace>
+    <AssemblyName>BlazeManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <CodeAnalysisRuleSet>RULes.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addons\Avatars\AvatarStatus.cs" />
+    <Compile Include="Addons\Avatars\AvatarTools.cs" />
+    <Compile Include="Addons\Avatars\UIAvatar.cs" />
+    <Compile Include="Addons\Mods\Cam3th.cs" />
+    <Compile Include="Addons\Mods\InfinityJump.cs" />
+    <Compile Include="Addons\Mods\NoLocalPickup.cs" />
+    <Compile Include="Addons\Patch\patch_AntiBlock.cs" />
+    <Compile Include="Addons\Patch\patch_AntiKick.cs" />
+    <Compile Include="Addons\Patch\patch_AvatarSteal.cs" />
+    <Compile Include="Addons\Patch\patch_AvatarTools.cs" />
+    <Compile Include="Addons\Patch\patch_EventManager.cs" />
+    <Compile Include="Addons\Patch\patch_GlobalEvents.cs" />
+    <Compile Include="Addons\Patch\patch_InvisAPI.cs" />
+    <Compile Include="Addons\Patch\patch_MorePortals.cs" />
+    <Compile Include="Addons\Patch\patch_Network.cs" />
+    <Compile Include="Addons\Patch\patch_NoPortal.cs" />
+    <Compile Include="Addons\Patch\patch_NoUdon.cs" />
+    <Compile Include="Addons\Patch\patch_PhotonSerilize.cs" />
+    <Compile Include="Addons\Patch\patch_UpdateYoutube-dl.cs" />
+    <Compile Include="Addons\Threads.cs" />
+    <Compile Include="Addons\UserUtils.cs" />
+    <Compile Include="BlazeTools\BlazeAttack\PhotonUtils.cs" />
+    <Compile Include="BlazeManager.cs" />
+    <Compile Include="BlazeManagerMenu\Edit_QuickMenu_ShortcutMenu.cs" />
+    <Compile Include="BlazeManagerMenu\Edit_QuickMenu_UIElementsMenu.cs" />
+    <Compile Include="BlazeManagerMenu\Main.cs" />
+    <Compile Include="BlazeManagerMenu\QuickTools.cs" />
+    <Compile Include="BlazeTools\BlazeAttack\PortalSploit.cs" />
+    <Compile Include="BlazeTools\BlazeWebAPI\API.cs" />
+    <Compile Include="BlazeTools\BlazeWebAPI\WebRequest.cs" />
+    <Compile Include="CustomQuickMenu\QMLineButton.cs" />
+    <Compile Include="CustomQuickMenu\QMSingleButton.cs" />
+    <Compile Include="CustomQuickMenu\QMToggleButton.cs" />
+    <Compile Include="CustomQuickMenu\QuickMenuBase.cs" />
+    <Compile Include="CustomQuickMenu\QuickMenuStuff.cs" />
+    <Compile Include="Addons\Mods\FlyMode.cs" />
+    <Compile Include="CustomUIMenu\UIBaseButton.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SDK\Assemblies.cs" />
+    <Compile Include="SDK\Assembly-CSharp\USpeakPhotonSender3D.cs" />
+    <Compile Include="SDK\Assembly-CSharp\DisconnectReason.cs" />
+    <Compile Include="SDK\Assembly-CSharp\ObjectInstantiator.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC_EventDispatcherRFC.cs" />
+    <Compile Include="SDK\Photon3Unity3D\ExitGames\Client\Photon\DictionaryEntryEnumerator.cs" />
+    <Compile Include="SDK\Photon3Unity3D\ExitGames\Client\Photon\Hashtable.cs" />
+    <Compile Include="SDK\Assembly-CSharp\LocomotionInputController.cs" />
+    <Compile Include="SDK\Assembly-CSharp\MenuController.cs" />
+    <Compile Include="SDK\Assembly-CSharp\ModerationManager.cs" />
+    <Compile Include="SDK\Assembly-CSharp\PhotonPlayer.cs" />
+    <Compile Include="SDK\Assembly-CSharp\PlayerModComponentJump.cs" />
+    <Compile Include="SDK\Assembly-CSharp\PlayerSelector.cs" />
+    <Compile Include="SDK\Assembly-CSharp\PortalInternal.cs" />
+    <Compile Include="SDK\Assembly-CSharp\ObjectInstantiatorHandle.cs" />
+    <Compile Include="SDK\Assembly-CSharp\PortalTrigger.cs" />
+    <Compile Include="SDK\Assembly-CSharp\QuickMenu.cs" />
+    <Compile Include="SDK\Assembly-CSharp\QuickMenuContextualDisplay.cs" />
+    <Compile Include="SDK\Assembly-CSharp\RoomManagerBase.cs" />
+    <Compile Include="SDK\Assembly-CSharp\UiAvatarList.cs" />
+    <Compile Include="SDK\Assembly-CSharp\UiTooltip.cs" />
+    <Compile Include="SDK\Assembly-CSharp\UiVRCList.cs" />
+    <Compile Include="SDK\Assembly-CSharp\UserInteractMenu.cs" />
+    <Compile Include="SDK\Assembly-CSharp\USpeaker.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRCApplicationSetup.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRCFlowManager.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRCInput.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRCPlayer.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC\Network.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC\Player.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC\PlayerManager.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC\SimpleAvatarPedestal.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC\UI\PageAvatar.cs" />
+    <Compile Include="SDK\Assembly-CSharp\VRC\UI\PageWorldInfo.cs" />
+    <Compile Include="SDK\Assembly-CSharp\YoutubeDLControl.cs" />
+    <Compile Include="SDK\BlazeIL\il2ch\IL2Ch.cs" />
+    <Compile Include="SDK\BlazeIL\il2ch\IL2Patch.cs" />
+    <Compile Include="SDK\BlazeIL\IL2Cmds.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Assembly.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Base.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2BindingFlags.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Constructor.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Field.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Method.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Object.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Param.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Property.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2ReturnType.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2Type.cs" />
+    <Compile Include="SDK\BlazeIL\il2cpp\IL2TypeObject.cs" />
+    <Compile Include="SDK\BlazeIL\il2generic\IL2Dictionary.cs" />
+    <Compile Include="SDK\BlazeIL\il2generic\IL2List.cs" />
+    <Compile Include="SDK\BlazeIL\IL2Import.cs" />
+    <Compile Include="SDK\BlazeIL\IL2Load.cs" />
+    <Compile Include="SDK\BlazeIL\il2reflection\IL2FastCall.cs" />
+    <Compile Include="SDK\BlazeIL\il2reflection\IL2Get.cs" />
+    <Compile Include="SDK\BlazeIL\il2reflection\IL2GetType.cs" />
+    <Compile Include="SDK\BlazeIL\il2reflection\IL2MethodBody.cs" />
+    <Compile Include="SDK\BlazeIL\IL2Tools.cs" />
+    <Compile Include="SDK\BlazeTools\ConSole.cs" />
+    <Compile Include="SDK\BlazeTools\IL2SystemClass.cs" />
+    <Compile Include="SDK\BlazeTools\RandomElement.cs" />
+    <Compile Include="SDK\BlazeTools\Types.cs" />
+    <Compile Include="SDK\Execute.cs" />
+    <Compile Include="SDK\Photon3D\ExitGames\Client\Photon\DeliveryMode.cs" />
+    <Compile Include="SDK\Photon3D\ExitGames\Client\Photon\EgMessageType.cs" />
+    <Compile Include="SDK\Photon3D\ExitGames\Client\Photon\SendOptions.cs" />
+    <Compile Include="SDK\SharpDisasm\ArchitectureMode.cs" />
+    <Compile Include="SDK\SharpDisasm\Disassembler.cs" />
+    <Compile Include="SDK\SharpDisasm\Helpers\AssemblyCode.cs" />
+    <Compile Include="SDK\SharpDisasm\Helpers\AssemblyCodeArray.cs" />
+    <Compile Include="SDK\SharpDisasm\Helpers\AssemblyCodeMemory.cs" />
+    <Compile Include="SDK\SharpDisasm\Helpers\AssemblyCodeOffset.cs" />
+    <Compile Include="SDK\SharpDisasm\IAssemblyCode.cs" />
+    <Compile Include="SDK\SharpDisasm\Instruction.cs" />
+    <Compile Include="SDK\SharpDisasm\Operand.cs" />
+    <Compile Include="SDK\SharpDisasm\Translators\ATTTranslator.cs" />
+    <Compile Include="SDK\SharpDisasm\Translators\IntelTranslator.cs" />
+    <Compile Include="SDK\SharpDisasm\Translators\SymbolResolverDelegate.cs" />
+    <Compile Include="SDK\SharpDisasm\Translators\Translator.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\BitOps.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\Decode.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\OpTable.cs">
+      <DependentUpon>OpTable.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SDK\SharpDisasm\Udis86\reg_class.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\syn.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\syn_intel.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\udis86.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_itab_entry.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_itab_entry_operand.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_lookup_table_list_entry.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_lval.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_operand.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_operand_code.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_operand_size.cs" />
+    <Compile Include="SDK\SharpDisasm\Udis86\ud_type.cs" />
+    <Compile Include="SDK\SharpDisasm\Vendor.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Application.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Behaviour.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Camera.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Color.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Component.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Events\UnityAction.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Events\UnityEvent.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Events\UnityEventBase.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\GameObject.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Input.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\KeyCode.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Mathf.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Object.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\PrimitiveType.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Quaternion.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Ray.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Rect.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\RectTransform.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Resources.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\SendMessageOptions.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Time.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Transform.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\UnityString.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Vector2.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Vector3.cs" />
+    <Compile Include="SDK\UnityEngine.CoreModule\Vector4.cs" />
+    <Compile Include="SDK\UnityEngine.PhysicsModule\BoxCollider.cs" />
+    <Compile Include="SDK\UnityEngine.PhysicsModule\CharacterController.cs" />
+    <Compile Include="SDK\UnityEngine.PhysicsModule\Collider.cs" />
+    <Compile Include="SDK\UnityEngine.PhysicsModule\CollisionFlags.cs" />
+    <Compile Include="SDK\UnityEngine.PhysicsModule\Physics.cs" />
+    <Compile Include="SDK\UnityEngine.PhysicsModule\RaycastHit.cs" />
+    <Compile Include="SDK\UnityEngine.UI\Button.cs" />
+    <Compile Include="SDK\UnityEngine.UI\Graphic.cs" />
+    <Compile Include="SDK\UnityEngine.UI\Image.cs" />
+    <Compile Include="SDK\UnityEngine.UI\Selectable.cs" />
+    <Compile Include="SDK\UnityEngine.UI\Text.cs" />
+    <Compile Include="SDK\UnityEngine.UnityAnalyticsModule\AnalyticsResult.cs" />
+    <Compile Include="SDK\UnityEngine.UnityAnalyticsModule\ApiAnalyticEvent.cs" />
+    <Compile Include="SDK\VRC.Udon\VRC\Udon\UdonBehaviour.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\ApiAvatar.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\ApiContainer.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\ApiModel.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\APIUser.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\ApiWorld.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\ApiWorldInstance.cs" />
+    <Compile Include="SDK\VRCCore-Standalone\VRC\Core\BestHTTP\HTTPMethods.cs" />
+    <Compile Include="SDK\VRCSDK2\VRC\SDKBase\VRC_EventHandler.cs" />
+    <Compile Include="SDK\VRCSDK2\VRC\SDKBase\VRC_SceneDescriptor.cs" />
+    <Compile Include="SDK\VRCSDK2\VRC_EventHandler.cs" />
+    <Compile Include="SDK\VRCSDK2\VRC_Pickup.cs" />
+    <Compile Include="SDK\VRCSDK2\VRC_PlayerApi.cs" />
+    <Compile Include="SDK\VRCSDK3\VRC\SDK3\Components\VRCPickup.cs" />
+    <Compile Include="BlazeTools\WebTools\CustomWeb.cs" />
+    <Compile Include="BlazeTools\WebTools\Rules.cs" />
+    <Compile Include="BlazeTools\WebTools\SecureProtocol.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlazeSDK\BlazeSDK.csproj">
+      <Project>{6df182b9-2619-4481-9606-3f20e01c547d}</Project>
+      <Name>BlazeSDK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="E:\Program Files %28x86%29\Steam\steamapps\common\VRChat\BlazeEngine\MonoLib\SharpDisasm.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="SDK\SharpDisasm\Udis86\OpTable.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>OpTable.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\SharpDisasm\Udis86\optable.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\SharpDisasm\Udis86\optable.xsl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
