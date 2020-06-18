@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="winmm64.cpp" />
+    <ClCompile Include="Loader\CLRHost.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\ExportController.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\FileManager.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\il2cpp.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\VRCLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InternalHelpers.hpp" />
+    <ClInclude Include="Loader\CLRHost.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\Exports.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\FileManager.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\HookTypes.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\il2cpp.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\INetDomain.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\NetHostControl.hpp">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\VRCLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\detours\detours.h">
+      <Filter>Loader\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\detours\detver.h">
+      <Filter>Loader\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\detours\syelog.h">
+      <Filter>Loader\detours</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="winmm64_asm.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="winmm64.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{cc6f0fc4-70e4-461a-987c-8ae5016adab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader\detours">
+      <UniqueIdentifier>{a187ef27-9de8-4ce3-9819-52fd8e003a26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Loader\detours\detours.lib">
+      <Filter>Loader\detours</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
