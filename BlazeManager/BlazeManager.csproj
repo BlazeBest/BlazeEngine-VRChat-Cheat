@@ -260,9 +260,6 @@
       <Name>BlazeSDK</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="E:\Program Files %28x86%29\Steam\steamapps\common\VRChat\BlazeEngine\MonoLib\SharpDisasm.dll" />
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="SDK\SharpDisasm\Udis86\OpTable.tt">
