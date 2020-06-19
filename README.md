@@ -8,7 +8,8 @@
   Serilize, No Portal Spawn, Infinity Jump, Global Events RPC Block, Hide Pickup Fast Join, SteamSpuffer (NotWork)
 
 #Donate
-http://paypal.me/blazebesy
+paypal.me/blazebesy
 
 # Contacts:
 Discord: BlazeBest#4974
+discord.gg/8mMGM43
