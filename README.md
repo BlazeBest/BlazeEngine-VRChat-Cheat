@@ -13,3 +13,6 @@
 # Contacts
 Discord: BlazeBest#4974
 - http://discord.gg/8mMGM43
+
+# Credits:
+- [AtiLion](https://github.com/AtiLion) for [VRCLoader/AtiRoNya](https://github.com/AtiLion/AtiRoNya)
