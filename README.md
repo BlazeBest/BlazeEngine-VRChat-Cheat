@@ -16,3 +16,4 @@ Discord: BlazeBest#4974
 
 # Credits:
 - [AtiLion](https://github.com/AtiLion) for [VRCLoader/AtiRoNya](https://github.com/AtiLion/AtiRoNya)
+- Just put "https://github.com/HerpDerpinstine for NET_SDK"
