@@ -1,4 +1,5 @@
 # BlazeManager (BlazeEngine) For VRChat Build 944 [Source] [NOT MILONLOADER]
+new Version: https://github.com/BlazeBest/BlazeEngine-IL2CPP
 
 # Command line
 "--dev-console" - For open DebugConsole
