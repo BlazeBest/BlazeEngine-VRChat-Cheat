@@ -9,7 +9,7 @@ new Version: https://github.com/BlazeBest/BlazeEngine-IL2CPP
   Serilize, No Portal Spawn, Infinity Jump, Global Events RPC Block, Hide Pickup Fast Join, SteamSpuffer (NotWork)
 
 # Donate
-- http://paypal.me/blazebesy
+- Ask on Discord: BlazeBest#4974
 
 # Contacts
 Discord: BlazeBest#4974
