@@ -9,11 +9,11 @@ new Version: https://github.com/BlazeBest/BlazeEngine-IL2CPP
   Serilize, No Portal Spawn, Infinity Jump, Global Events RPC Block, Hide Pickup Fast Join, SteamSpuffer (NotWork)
 
 # Donate
-- Ask on Discord: BlazeBest#4974
+- Ask on Discord: BlazeBest#1284
 
 # Contacts
-Discord: BlazeBest#4974
-- http://discord.gg/8mMGM43
+Discord: BlazeBest#1284
+- http://discord.gg/EaReVF3B8U
 
 # Credits:
 - [AtiLion](https://github.com/AtiLion) for [VRCLoader/AtiRoNya](https://github.com/AtiLion/AtiRoNya)
