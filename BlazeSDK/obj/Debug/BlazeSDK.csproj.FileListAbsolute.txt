@@ -1,5 +1,0 @@
-C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\bin\BlazeSDK.dll
-C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\bin\BlazeSDK.pdb
-C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeSDK\obj\Debug\BlazeSDK.csprojAssemblyReference.cache
-C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeSDK\obj\Debug\BlazeSDK.dll
-C:\Users\BlazeBest\Desktop\111\BlazeEngine-VRChat-Cheat\BlazeSDK\obj\Debug\BlazeSDK.pdb
