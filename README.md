@@ -1,5 +1,4 @@
 # BlazeEngine-IL2CPP (BE4V) For VRChat Build Any (LASTEST) [Source] [NOT MILONLOADER]
-# [Not support EAC]
 # [For buy EAC unblock Discord: BlazeBest#1284]
 Register for Client (Release): https://client.icefrag.ru
 
