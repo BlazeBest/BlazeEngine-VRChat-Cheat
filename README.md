@@ -18,7 +18,7 @@ Like video: https://www.youtube.com/watch?v=BWcNYdUs6Vg
 
 | IF Community | Developer |
 |----------------|:-----------:|
-| https://www.icefrag.ru | BlazeBest#1284 |
+| https://www.icefrag.ru/ | BlazeBest#1284 |
 
 # Command line
 "--dev-console" - For open DebugConsole
