@@ -15,9 +15,10 @@ Like video: https://www.youtube.com/watch?v=BWcNYdUs6Vg
 | [- Functions](https://github.com/BlazeBest/BlazeEngine-IL2CPP/blob/master/Functions) |
 
 # Contacts
+
 | IF Community | Developer |
 |----------------|:-----------:|
-| http://discord.gg/EaReVF3B8U | BlazeBest#1284 |
+| https://www.icefrag.ru | BlazeBest#1284 |
 
 # Command line
 "--dev-console" - For open DebugConsole
